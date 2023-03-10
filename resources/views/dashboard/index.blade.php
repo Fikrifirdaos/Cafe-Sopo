@@ -281,10 +281,7 @@
                     <h6>Abaout</h6>
                     <ul>
                         <li><a href="">kontak</a></li>
-                        <li><a href="">kontak</a></li>
-                        <li><a href="">kontak</a></li>
-                        <li><a href="">kontak</a></li>
-                        <li><a href="">kontak</a></li>
+
                     </ul>
                 </div>
                 <div class="col-4  rounded border border-dark">
