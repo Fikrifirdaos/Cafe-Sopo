@@ -1,0 +1,62 @@
+.promo1{
+    background-color: rgb(247, 217, 19);
+    height: 300px;
+}
+.img1{
+    height: 200px;
+}
+.img2{
+    height: 100px;
+    margin-top: -240px;
+    margin-left: 280px;
+}
+
+.img3{
+    height: 150px;
+    margin-top: -90px;
+    margin-left: 300px;
+}
+.img4{
+    height: 150px;
+    margin-top: -120px;
+    margin-left: 300px;
+}
+.promo{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.promo2{
+    background-color: rgb(11, 151, 41);
+    height: 300px;
+}
+.grab{
+    height: 100px;
+    padding-top: 70px;
+}
+.gojek{
+    height: 100px;
+    padding-top: 10px;
+}
+.shope{
+    height: 100px;
+    padding-top: 10px;
+    margin-left: 100px;
+}
+/* end promo1 */
+.category{
+    background-color: rgb(230, 175, 10);
+    height: 200px;
+}
+/* end category */
+.footer-logo{
+    height: 200px;
+}
+.smk-logo{
+    height: 130px;
+}
+
+.footer-about a{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
