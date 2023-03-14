@@ -272,20 +272,43 @@
     <div class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-4 rounded border border-dark">
-                    <img src="../assets/img/smk.png" class="smk-logo" alt="">
+                <div class="col-4 rounded">
                     <img src="../assets/img/logocofe.png" class="footer-logo" alt="">
-                    <h6></h6>
+                    <h6>Alamat</h6>
+                    <p>Toko Siliwangi
+                        Jl. Taposkota I No.22a, RT.02/RW.04</p>
+                    <div class="contak">
+                        <a href=""><img src="../assets/img/smk.png" class="smk-logo" alt=""></a>
+                        <a href=""><img src="../assets/img/logoig.png" class="ig-logo" alt=""></a>
+                        <a href=""><img src="../assets/img/logo-facebook.png" class="fb-logo" alt=""></a>
+                        <a href=""><img src="../assets/img/wa -logo.png" class="fb-logo" alt=""></a>
+                        <a href=""><img src="../assets/img/tiktok-logo.png" class="tiktok-logo" alt=""></a>
+                    </div>
                 </div>
-                <div class="footer-about col-4  rounded border border-dark">
+                <div class="footer-about col-4  rounded mt-5">
                     <h6>Abaout</h6>
                     <ul>
+                        <li><a href="">kontak</a></li>
+                        <li><a href="">kontak</a></li>
+                        <li><a href="">kontak</a></li>
+                        <li><a href="">kontak</a></li>
+                        <li><a href="">kontak</a></li>
+                        <li><a href="">kontak</a></li>
                         <li><a href="">kontak</a></li>
 
                     </ul>
                 </div>
-                <div class="col-4  rounded border border-dark">
-                    hueueuh
+                <div class="col-4  rounded">
+                    <form>
+                        <div class="mb-3">
+                          <label for="" class="form-label">Nama</label>
+                          <input type="text" class="form-control" id="">
+                        <div class="mb-3">
+                          <label for="" class="form-label">Pesan</label>
+                          <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
                 </div>
             </div>
         </div>

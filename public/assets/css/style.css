@@ -52,9 +52,17 @@
     height: 200px;
 }
 .smk-logo{
-    height: 130px;
+    height: 70px;
 }
-
+.ig-logo{
+    height: 50px;
+}
+.fb-logo{
+    height: 70px;
+}
+.tiktok-logo{
+    height: 60px;
+}
 .footer-about a{
     text-align: center;
     align-items: center;
