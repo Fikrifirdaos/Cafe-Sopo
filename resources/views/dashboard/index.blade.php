@@ -29,7 +29,7 @@
                         yang pahit. Meski begitu, banyak orang yang tergila-gila dengan minuman ini.
                         Bahkan, ada orang yang rela membayar secangkir kopi yang enak dengan harga mahal.
                     </p>
-                    <a class="btn btn-lg btn-circle btn-outline-primary" href="#">Masuk</a>
+                    <a class="btn btn-lg btn-circle btn-outline-primary" href="/Produk">Masuk</a>
                 </div>
                 {{-- carouser --}}
                 <div id="carouselExampleCaptions" class="carousel slide mt-4">
@@ -151,20 +151,20 @@
             </div>
         </div>
         <div class="category mt-5">
-            <div class="row ">
+            <div class="icon row ">
                 <div class="col-4 ">
-                    <div class="border border-success-subtle text-center mt-5">
-                        <h1>drink</h1>
+                    <div class=" text-center mt-5">
+                        <a href=""><i class="bi bi-cup-straw"></i></a>
                     </div>
                 </div>
                 <div class="col-4 ">
-                    <div class="border border-success-subtle text-center mt-5">
-                        <h1>food</h1>
+                    <div class=" text-center mt-5">
+                        <a href=""><i class="bi bi-inbox-fill"></i></a>
                     </div>
                 </div>
                 <div class="col-4 ">
-                    <div class="border border-success-subtle text-center mt-5">
-                        <h1>coffe</h1>
+                    <div class=" text-center mt-5">
+                        <a href=""><i class="bi bi-journal-text"></i></a>
                     </div>
                 </div>
             </div>
@@ -176,7 +176,7 @@
                     <h2>Menu spesial</h2>
                     <div class="separetor"></div>
                 </div>
-                <div class="row mt-5">
+                <div class="lad-menu row mt-5">
                     <div class="col-2 ms-4 ">
                         <div class="single_special_img">
                             <img src="../assets/img/mn (1).jpg" style="height: 200px;" alt="" />
@@ -204,7 +204,7 @@
                     </div>
                 </div>
                 {{-- end row1 --}}
-                <div class="row mt-2">
+                <div class="lad-menu row mt-2">
                     <div class="col-2 ms-4 ">
                         <div class="single_special_img">
                             <img src="../assets/img/mn (1).jpg" style="height: 200px;" alt="" />
@@ -237,7 +237,7 @@
         <div class="promo1">
             <div class="container">
                 <div class="row mt-5">
-                    <div class="col-6">
+                    <div class="promo-animate col-6">
                         <img src="../assets/img/mn (3).jpg"  class="mt-4 img1" alt="">
                         <img src="../assets/img/mn (4).jpeg"  class="img3" alt="">
                         <img src="../assets/img/mn(5).jpg"  class="img2" alt="">
@@ -258,7 +258,7 @@
                         <h3>Promo! Kapan lagi beli 6 ini bayar seharga 5 porsi. Langsung cus gak pake mikir!</h3>
                         <img src="./assets/img/GrabFood_Logo.png" class="grab" alt="">
                     </div>
-                    <div class="col-6 mt-4">
+                    <div class="promo-animate col-6 mt-4">
                         <img src="../assets/img/kopi 1.jpg"  class="mt-4 img1" alt="">
                         <img src="../assets/img/kopi 3.jpg"  class="img4" alt="">
                     </div>
