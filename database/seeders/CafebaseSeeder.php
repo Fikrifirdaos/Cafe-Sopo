@@ -30,15 +30,39 @@ class CafebaseSeeder extends Seeder
                 'description' => 'Biji kopi pilihan terdapat didalamnya'
             ],
             [
+                'name' => 'Kopi Kampers',
+                'image' => 'assets/img/kopi 3.jpg',
+                'price' => 45000,
+                'description' => 'Biji kopi pilihan terdapat didalamnya'
+            ],
+            [
+                'name' => 'Kopi Hideung',
+                'image' => 'assets/img/cofe2.jpg',
+                'price' => 40000,
+                'description' => 'Biji kopi pilihan terdapat didalamnya'
+            ],
+            [
                 'name' => 'Pizza',
                 'image' => 'assets/img/mn(5).jpg',
                 'price' => 45000,
                 'description' => 'Python Language'
             ],
             [
-                'name' => 'Mie',
+                'name' => 'Masakan Sunda',
                 'image' => 'assets/img/mn (2).jpg',
                 'price' => 15000,
+                'description' => 'Codeigniter freamwork'
+            ],
+            [
+                'name' => 'Pasta',
+                'image' => 'assets/img/mn (3).jpg',
+                'price' => 25000,
+                'description' => 'Codeigniter freamwork'
+            ],
+            [
+                'name' => 'Creamy truffle',
+                'image' => 'assets/img/mn (4).jpeg',
+                'price' => 25000,
                 'description' => 'Codeigniter freamwork'
             ],
         ];

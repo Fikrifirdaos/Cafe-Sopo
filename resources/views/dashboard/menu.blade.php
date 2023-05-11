@@ -24,7 +24,7 @@
                         <p class="ms-3">Rp {{$prod->price}}</p>
                         <p class="ms-3">{{$prod->description}}</p>
                         <a href="{{ route('add_to_cart', $prod->id) }}" class="btn btn-warning mt-4">cart+</a>
-                        <a href="/keranjang" class="btn btn-success ms-3">pesan</a>
+                        <a href="{{ route('add_to_shop', $prod->id) }}" class="btn btn-success ms-3">pesan</a>
                         
                     </div>
                 </div>

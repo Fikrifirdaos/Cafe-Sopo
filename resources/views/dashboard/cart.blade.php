@@ -11,6 +11,8 @@
         </tr>
     </thead>
     <tbody>
+        <form action="{{route('checkout')}}" method="post">
+            @csrf
         @php $total = 0 @endphp
         @if(session('cart'))
             @foreach(session('cart') as $id => $details)
@@ -26,7 +28,7 @@
                     </td>
                     <td data-th="Price">Rp {{ $details['price'] }}</td>
                     <td data-th="Quantity">
-                        <input type="number" value="{{ $details['quantity'] }}" class="form-control quantity cart_update" min="1" />
+                        <input type="number"  value="{{ $details['quantity'] }}" class="form-control quantity cart_update" min="1" />
                     </td>
                     <td data-th="Subtotal" class="text-center">Rp{{ $details['price'] * $details['quantity'] }}</td>
                     <td class="actions" data-th="">
@@ -43,12 +45,14 @@
         <tr>
             <td colspan="5" class="text-right">
                 <a href="{{ url('/Produk') }}" class="btn btn-danger"> <i class="fa fa-arrow-left"></i> Continue Shopping</a>
-                <a href="{{ url('/keranjang')}}" class="btn btn-success"><i class="fa fa-money"></i> Checkout</a>
+                <button class="btn btn-success mt-2"><i class="fa fa-money"></i>Checkout</button>
 
             </td>
         </tr>
     </tfoot>
 </table>
+</form>
+
 @endsection
   
 @section('scripts')

@@ -286,7 +286,7 @@
                     </div>
                 </div>
                 <div class="footer-about col-4  rounded mt-5">
-                    <h6>Abaout</h6>
+                    <h6>About</h6>
                     <ul>
                         <li><a href="">kontak</a></li>
                         <li><a href="">kontak</a></li>
@@ -299,13 +299,14 @@
                     </ul>
                 </div>
                 <div class="col-4  rounded">
-                    <form>
+                    <form action="{{route('storeMessage')}}" method="POST">
+                        @csrf
                         <div class="mb-3">
-                          <label for="" class="form-label">Nama</label>
+                          <label for="name" class="form-label">Nama</label>
                           <input type="text" class="form-control" id="">
                         <div class="mb-3">
-                          <label for="" class="form-label">Pesan</label>
-                          <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                          <label for="message" class="form-label">Pesan</label>
+                          <textarea name="message" id="" cols="30" rows="10" class="form-control"></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                       </form>
@@ -313,5 +314,5 @@
             </div>
         </div>
     </div>
-    byFikriFirdaos
+    Created by <a href="#" style="text-decoration: none;  color:#000" >Muhammad Fikri Firdaos</a>
 </footer>
